@@ -119,10 +119,15 @@ b {
     /*max-height: 100px;*/
     min-width: 400px;
     margin-bottom: 90px;
-    padding-left: 50px;
+    padding-left: 110px;
     display: inline-block;
     width: 40%;
     float: left;
+}
+
+.two-blocks-text_left-side {
+    margin-right: 50px;
+    position: relative;
 }
 
 @media (min-width: 800px) {
@@ -130,9 +135,6 @@ b {
         float: right;
     }
 }
-
-
-
 
 .clearfix::after {
     content: "";
